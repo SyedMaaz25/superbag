@@ -1,0 +1,58 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #000;
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+  width: 12px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #000;
+}
+
+body::-ms-scrollbar-track {
+  background-color: gray;
+}
+
+body::-ms-scrollbar-thumb {
+  background-color: #000;
+}
+
+.card {
+  padding: 2rem;
+  background-color: black !important;
+  color: white !important;
+  position: relative;
+}
+
+.add {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  visibility: hidden;
+}
+
+.card:hover .add {
+  visibility: visible;
+}
+
+button {
+  width: 100%;
+}
