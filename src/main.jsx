@@ -1,13 +1,14 @@
 import React from "react";
 import App from "./App";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
+import { createRoot } from "react-dom/client"; // Change import here
 import { store } from "./store";
 import { BrowserRouter } from "react-router-dom";
 import { Auth0Provider } from "@auth0/auth0-react";
 import "./index.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById("root")).render( // Use createRoot directly
   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>
