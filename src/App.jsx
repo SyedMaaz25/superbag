@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <ThemeProvider theme={Theme}>
+      <ThemeProvider theme={Theme} >
         <CssBaseline />
         <Header />
         <Routes>
