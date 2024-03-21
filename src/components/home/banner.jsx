@@ -5,7 +5,7 @@ import { Typography } from "../../atoms/typography";
 import { Grid } from "../../atoms/grid";
 import { makeStyles } from "@mui/styles";
 import { useSelector } from "react-redux";
-import { Card, CardActions, CardContent } from "../../atoms/card";
+import { Card, CardContent } from "../../atoms/card";
 
 const useStyles = makeStyles((theme) => ({
   root: {

@@ -1,17 +1,17 @@
 import React from "react";
 import { Container } from "../../atoms/container";
 import { Box } from "../../atoms/box";
-import { Card, CardContent, CardActions } from "../../atoms/card";
+import { Card, CardContent } from "../../atoms/card";
 import { Typography } from "../../atoms/typography";
 import { Button } from "../../atoms/button";
 import { makeStyles } from "@mui/styles";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import "swiper/css/pagination";
 import "swiper/css";
-import { NavLink, useParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Hidden } from "@mui/material";
 
 const useStyles = makeStyles((theme) => ({

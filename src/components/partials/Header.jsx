@@ -20,7 +20,6 @@ import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import Person2OutlinedIcon from "@mui/icons-material/Person2Outlined";
 import StarBorderOutlinedIcon from "@mui/icons-material/StarBorderOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
-import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
 import Cart from "../home/cart";
 import { useAuth0 } from "@auth0/auth0-react";
 import CircularProgress from "@mui/material/CircularProgress";
